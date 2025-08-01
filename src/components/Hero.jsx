@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import { Github, Linkedin, Mail, Download } from 'lucide-react'
 import './Hero.css'
 import nuha from '../assets/DP.jpg'
+import nuha_cv from '../assets/Nuha_CV.pdf'
 
 const Hero = () => {
   const scrollToSection = (sectionId) => {
@@ -62,7 +63,7 @@ const Hero = () => {
             >
               View My Work
             </button>
-           <a href="/Nuha_Yoosuf_CV.pdf" download>
+           <a href= {nuha_cv} download>
   <button className="btn btn-secondary">
     <Download size={18} style={{ marginRight: '8px' }} />
     Download CV
