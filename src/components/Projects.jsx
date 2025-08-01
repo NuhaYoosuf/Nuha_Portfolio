@@ -6,6 +6,9 @@ import FindMyRecipe from '../assets/FindMyRecipe.png'
 import ChatApp from '../assets/ChatApp.jpg'
 import MyDailyHub from '../assets/MyDailyHub.png'
 import CampusEats from '../assets/CampusEats.jpg'
+import PillCare from '../assets/PillCare.png'
+import SmartPill from '../assets/SmartPill.png'
+
 import './Projects.css'
 
 const Projects = () => {
@@ -60,7 +63,7 @@ const Projects = () => {
       id: 5,
       title: "PillCare",
       description: "An Android application that helps users track their medication with smart reminders and daily logs.",
-      image: "/api/placeholder/400/300",
+      image: PillCare,
       category: "mobile app",
       technologies: ["Java", "XML", "Room (SQLite)"],
       github: "https://github.com/NuhaYoosuf/PillCare",
@@ -71,7 +74,7 @@ const Projects = () => {
       id: 6,
       title: "Smart Pill Reminder System | IoT-Based Healthcare App | Group ",
       description: "An IoT-powered medication management system combining real-time reminders, sensor automation, and ML-based pill verification to assist users in adhering to medication schedules.",
-      image: "/api/placeholder/400/300",
+      image: SmartPill,
       category: "iot",
       technologies: [ "ESP32","Firebase",  "Blynk IoT", "Android (Java)", "TensorFlow Lite", "Wokwi"],
       github: "https://github.com/HanaShams/SmartPillReminder",
@@ -84,7 +87,7 @@ const Projects = () => {
       description: "A Laravel-based platform designed to connect university students with nearby restaurants for convenient online food ordering. It supports both restaurant and user functionalities with distinct dashboards and workflows.",
       image: CampusEats,
       category: "webapp",
-      technologies: [ "ESP32","Firebase",  "Blynk IoT", "Android (Java)", "TensorFlow Lite", "Wokwi"],
+      technologies: [ "Laravel", "PHP", "MySQL", "Git"],
       github: "https://github.com/rashadamd/CampusEats",
       demo: "https://recipe-platform-demo.netlify.app",
     

@@ -45,7 +45,7 @@ const Footer = () => {
           <div className="footer-section">
             <div className="footer-brand">
               <h3>Nuha Yoosuf</h3>
-              <p>Full Stack Developer passionate about creating impactful digital experiences.</p>
+              <p>Software Developer passionate about creating impactful digital experiences.</p>
             </div>
             <div className="footer-social">
               {socialLinks.map((social, index) => (
@@ -86,7 +86,7 @@ const Footer = () => {
             <div className="footer-contact">
               <p>
                 <Mail size={16} />
-                nuhayoosuf@example.com
+                ahunfathi000@gmail.com
               </p>
               <p>Available for freelance projects and full-time opportunities</p>
             </div>
@@ -96,7 +96,7 @@ const Footer = () => {
         <div className="footer-bottom">
           <div className="footer-copyright">
             <p>
-              © {currentYear} Nuha Yoosuf. Made with <Heart size={16} className="heart" /> using React
+              © {currentYear} Nuha Yoosuf
             </p>
           </div>
           <div className="footer-links">
